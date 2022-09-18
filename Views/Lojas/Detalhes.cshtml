@@ -1,0 +1,18 @@
+@model AvaliacaoLP3_3BIM.ViewModels.LojasViewModel;
+
+@{
+    ViewData["Title"] = "Detalhes de " + Model.Nome;
+}
+<div class="text-center">
+    <h1 class="display-4">Detalhes</h1>
+
+    <h1>Nome: @Model.Nome</h1>
+    <p>Descrição: @Model.Descricao</p>
+    <p>Piso: @Model.Descricao</p>
+    <p>Loja/Kiosque: @Model.TipoLoja</p>
+    <p>Contato: @Model.Email</p>
+
+    <button>Excluir loja</button>
+
+
+</div>

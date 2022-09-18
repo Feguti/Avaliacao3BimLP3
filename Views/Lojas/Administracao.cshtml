@@ -1,0 +1,17 @@
+@model List<AvaliacaoLP3_3BIM.ViewModels.LojasViewModel>
+
+@{
+    ViewData["Title"] = "Área administrativa";
+}
+
+<div class="text-center">
+
+    @foreach (var loja in Model)
+    {
+        <h3> @loja.Nome </h3>
+        <p> <a href="/Loja/Detalhes/@loja.Id">Detalhes</a></p>
+        <button>Excluir loja</button>
+        <hr>
+    }
+
+</div>
