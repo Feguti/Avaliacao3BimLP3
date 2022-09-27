@@ -7,12 +7,14 @@
     <h1 class="display-4">Detalhes</h1>
 
     <h1>Nome: @Model.Nome</h1>
+    <p>Identificador: @Model.Id</p>
     <p>Descrição: @Model.Descricao</p>
-    <p>Piso: @Model.Descricao</p>
-    <p>Loja/Kiosque: @Model.TipoLoja</p>
+    <p>Piso: @Model.Piso</p>
+    <p>Tipo: @Model.TipoLoja</p>
     <p>Contato: @Model.Email</p>
 
-    <button>Excluir loja</button>
-
+    <form action="../Deletar/@Model.Id">
+        <button class="btn btn-danger">Deletar</button>
+    </form>
 
 </div>

@@ -1,55 +1,54 @@
 @model AvaliacaoLP3_3BIM.ViewModels.LojasViewModel;
 
 @{
-    ViewData["Title"] = "Cadastrar loja";
+    ViewData["Title"] = "Cadastrar Lojas";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Cadastrar nova loja</h1>
+<div class="text">
+    <h1 class="display-4">Cadastrar Loja</h1>
+    <hr>
+       
 </div>
+<div class="container">
+    <form action="ValidarCadastro" method="POST">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="form-control" required>
+        </div>  
+        <div class="form-group">
+            <label for="nome">Identificador</label>
+            <input type="number" name="id" id="id" class="form-control" required>
+        </div> 
+        <div class="form-group" >
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" class="form-control" required>
+        </div> 
 
- <div class="container">
-        <div class="con">
-            <div class="right-side">
-                <br>
-                <p>
-                    Para realizar o cadastro de sua loja ou kiosque, preencha as informações abaixo:
-                </p>
-                <form action="#">
-                    <div class="input-box">
-                        <input type="number" name="Id" placeholder="Digite o número de identificação" />
-                    </div>
-                    
-                    <div class="input-box">
-                        <select name="input-box">
-                            <option value="valor1" selected>piso 1</option>
-                            <option value="valor2">piso 2</option>
-                            <option value="valor3">piso 3</option>
-                        </select>
-                    </div>
-                    
-                    <div class="input-box">
-                        <input type="text" placeholder="Nome da loja..." />
-                    </div>
-                    
-                    <div class="input-box message-box">
-                        <textarea placeholder="Descrição..."></textarea>
-                    </div>
-                    
-                    <div class="input-box">
-                        <select name="input-box">
-                            <option value="valor1" selected>Loja</option>
-                            <option value="valor2">Kiosque</option>
-                        </select>
-                    </div>
-                    <div class="input-box">
-                        <input type="text" placeholder="Email para contato..." />
-                    </div>
-                    
-                    <div class="button">
-                        <input type="button" value="Cadastrar" />
-                    </div>
-                </form>
+        <div class="form-group row">
+            <div class="form-group col-md-6">
+                <label for="piso">Piso</label>
+                <select class="form-control form-control-sm" name="piso" id="piso" required>
+                    <option value="" disabled selected>Selecione o piso da loja</option>
+                    <option value="1">Piso 1</option>
+                    <option value="2">Piso 2</option>
+                    <option value="3">Piso 3</option>                        
+                </select>
             </div>
+                <div class="form-group col-md-6">
+                    <label for="piso">Categoria</label>
+                    <select class="form-control form-control-sm" name="categoria" id="categoria" required>
+                        <option value="" disabled selected> Selecione a categoria da loja</option>
+                        <option value="Loja">Loja</option>
+                        <option value="Kiosque">Kiosque</option>
+                    </select>
+            </div>
+        
+        </div>              
+
+        <div class="form-group">
+            <label for="descricao">Descrição</label>
+            <textarea class="form-control" name="descricao" id="descricao" cols="30" rows="5"></textarea>
         </div>
-    </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>

@@ -8,53 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AvaliacaoLP3_3BIM
 build_property.RootNamespace = AvaliacaoLP3_3BIM
-build_property.ProjectDir = c:\Users\fegut\Desktop\AvaliacaoLP3-3BIM\
+build_property.ProjectDir = /home/estudante/Guccizera/Avaliacao3BimLP3/
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\fegut\Desktop\AvaliacaoLP3-3BIM
+build_property.MSBuildProjectDirectory = /home/estudante/Guccizera/Avaliacao3BimLP3
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Lojas/Administracao.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcQWRtaW5pc3RyYWNhby5jc2h0bWw=
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/Administracao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvQWRtaW5pc3RyYWNhby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Lojas/CadastrarLoja.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcQ2FkYXN0cmFyTG9qYS5jc2h0bWw=
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/CadastrarLoja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvQ2FkYXN0cmFyTG9qYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Lojas/Detalhes.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcRGV0YWxoZXMuY3NodG1s
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/Deletar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvRGVsZXRhci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Lojas/Loja.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9qYXNcTG9qYS5jc2h0bWw=
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/Detalhes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvRGV0YWxoZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/Loja.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvTG9qYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/ValidarCadastro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvVmFsaWRhckNhZGFzdHJvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Lojas/ValidarId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTG9qYXMvVmFsaWRhcklkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/fegut/Desktop/AvaliacaoLP3-3BIM/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-cqpi8dlwb7
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/estudante/Guccizera/Avaliacao3BimLP3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-6sgkapmml0
